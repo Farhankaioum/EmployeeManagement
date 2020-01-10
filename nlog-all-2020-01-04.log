@@ -1,0 +1,56 @@
+2020-01-04 18:39:34.8261|WARN|EmployeeManagement.Controllers.AccountController|https://localhost:44319/Account/ConfirmEmail?userId=a4dff52a-d60c-421d-a0b3-11659d19e29e&token=CfDJ8MN%2Fy%2BRv4hhJnC5xLsr9vRTtxVgFss7TTeXKBWCdbcyh5ClDw%2FZeQPenZKRUAjusJvKxOu6CDlj3WwxGVm6PVSUGY2nlXIYnMeSdnlYfpxQGsVdVNSi9hqujcng1%2B%2BsIiCEWU534qqlQoW1fcDESI%2BE4Jctb0wsF3okcEXlt7PsAc7kOUtnl7c%2BHuXWSN3HICrP3CoWAIlDCJHNvPgbJyoow4X3Xt2OfE8KW47bSc4Kp9%2BD5GGXmFIWVPXoPRw8gng%3D%3D
+2020-01-04 21:20:15.0983|WARN|Microsoft.AspNetCore.Identity.UserManager|Invalid password for user 75edbcae-5282-47e9-ab60-2828cdfd41c2.
+2020-01-04 21:20:15.2176|WARN|Microsoft.AspNetCore.Identity.SignInManager|User 75edbcae-5282-47e9-ab60-2828cdfd41c2 failed to provide the correct password.
+2020-01-04 21:20:17.8982|WARN|Microsoft.AspNetCore.Identity.UserManager|Invalid password for user 75edbcae-5282-47e9-ab60-2828cdfd41c2.
+2020-01-04 21:20:17.8982|WARN|Microsoft.AspNetCore.Identity.SignInManager|User 75edbcae-5282-47e9-ab60-2828cdfd41c2 failed to provide the correct password.
+2020-01-04 21:20:20.4117|WARN|Microsoft.AspNetCore.Identity.UserManager|Invalid password for user 75edbcae-5282-47e9-ab60-2828cdfd41c2.
+2020-01-04 21:20:20.4117|WARN|Microsoft.AspNetCore.Identity.SignInManager|User 75edbcae-5282-47e9-ab60-2828cdfd41c2 failed to provide the correct password.
+2020-01-04 21:20:23.0319|WARN|Microsoft.AspNetCore.Identity.UserManager|Invalid password for user 75edbcae-5282-47e9-ab60-2828cdfd41c2.
+2020-01-04 21:20:23.0336|WARN|Microsoft.AspNetCore.Identity.SignInManager|User 75edbcae-5282-47e9-ab60-2828cdfd41c2 failed to provide the correct password.
+2020-01-04 21:20:25.5972|WARN|Microsoft.AspNetCore.Identity.UserManager|Invalid password for user 75edbcae-5282-47e9-ab60-2828cdfd41c2.
+2020-01-04 21:20:25.5972|WARN|Microsoft.AspNetCore.Identity.SignInManager|User 75edbcae-5282-47e9-ab60-2828cdfd41c2 failed to provide the correct password.
+2020-01-04 21:20:28.9633|WARN|Microsoft.AspNetCore.Identity.UserManager|Invalid password for user 75edbcae-5282-47e9-ab60-2828cdfd41c2.
+2020-01-04 21:20:28.9633|WARN|Microsoft.AspNetCore.Identity.SignInManager|User 75edbcae-5282-47e9-ab60-2828cdfd41c2 failed to provide the correct password.
+2020-01-04 21:22:58.1814|WARN|Microsoft.AspNetCore.Identity.UserManager|Invalid password for user 75edbcae-5282-47e9-ab60-2828cdfd41c2.
+2020-01-04 21:22:58.1814|WARN|Microsoft.AspNetCore.Identity.SignInManager|User 75edbcae-5282-47e9-ab60-2828cdfd41c2 failed to provide the correct password.
+2020-01-04 21:23:00.2510|WARN|Microsoft.AspNetCore.Identity.UserManager|Invalid password for user 75edbcae-5282-47e9-ab60-2828cdfd41c2.
+2020-01-04 21:23:00.2523|WARN|Microsoft.AspNetCore.Identity.SignInManager|User 75edbcae-5282-47e9-ab60-2828cdfd41c2 failed to provide the correct password.
+2020-01-04 21:23:02.7066|WARN|Microsoft.AspNetCore.Identity.UserManager|Invalid password for user 75edbcae-5282-47e9-ab60-2828cdfd41c2.
+2020-01-04 21:23:02.7066|WARN|Microsoft.AspNetCore.Identity.SignInManager|User 75edbcae-5282-47e9-ab60-2828cdfd41c2 failed to provide the correct password.
+2020-01-04 21:23:05.5470|WARN|Microsoft.AspNetCore.Identity.UserManager|Invalid password for user 75edbcae-5282-47e9-ab60-2828cdfd41c2.
+2020-01-04 21:23:05.5470|WARN|Microsoft.AspNetCore.Identity.SignInManager|User 75edbcae-5282-47e9-ab60-2828cdfd41c2 failed to provide the correct password.
+2020-01-04 21:23:09.8586|WARN|Microsoft.AspNetCore.Identity.UserManager|Invalid password for user 75edbcae-5282-47e9-ab60-2828cdfd41c2.
+2020-01-04 21:23:09.8586|WARN|Microsoft.AspNetCore.Identity.SignInManager|User 75edbcae-5282-47e9-ab60-2828cdfd41c2 failed to provide the correct password.
+2020-01-04 21:23:12.4169|WARN|Microsoft.AspNetCore.Identity.UserManager|Invalid password for user 75edbcae-5282-47e9-ab60-2828cdfd41c2.
+2020-01-04 21:23:12.4169|WARN|Microsoft.AspNetCore.Identity.SignInManager|User 75edbcae-5282-47e9-ab60-2828cdfd41c2 failed to provide the correct password.
+2020-01-04 21:23:14.4561|WARN|Microsoft.AspNetCore.Identity.UserManager|Invalid password for user 75edbcae-5282-47e9-ab60-2828cdfd41c2.
+2020-01-04 21:23:14.4561|WARN|Microsoft.AspNetCore.Identity.SignInManager|User 75edbcae-5282-47e9-ab60-2828cdfd41c2 failed to provide the correct password.
+2020-01-04 21:23:16.5883|WARN|Microsoft.AspNetCore.Identity.UserManager|Invalid password for user 75edbcae-5282-47e9-ab60-2828cdfd41c2.
+2020-01-04 21:23:16.5883|WARN|Microsoft.AspNetCore.Identity.SignInManager|User 75edbcae-5282-47e9-ab60-2828cdfd41c2 failed to provide the correct password.
+2020-01-04 21:23:20.1608|WARN|Microsoft.AspNetCore.Identity.UserManager|Invalid password for user 75edbcae-5282-47e9-ab60-2828cdfd41c2.
+2020-01-04 21:23:20.1608|WARN|Microsoft.AspNetCore.Identity.SignInManager|User 75edbcae-5282-47e9-ab60-2828cdfd41c2 failed to provide the correct password.
+2020-01-04 21:28:13.2518|WARN|Microsoft.AspNetCore.Identity.UserManager|Invalid password for user 75edbcae-5282-47e9-ab60-2828cdfd41c2.
+2020-01-04 21:28:13.3135|WARN|Microsoft.AspNetCore.Identity.SignInManager|User 75edbcae-5282-47e9-ab60-2828cdfd41c2 failed to provide the correct password.
+2020-01-04 21:28:16.1637|WARN|Microsoft.AspNetCore.Identity.UserManager|Invalid password for user 75edbcae-5282-47e9-ab60-2828cdfd41c2.
+2020-01-04 21:28:16.1637|WARN|Microsoft.AspNetCore.Identity.SignInManager|User 75edbcae-5282-47e9-ab60-2828cdfd41c2 failed to provide the correct password.
+2020-01-04 21:28:19.0068|WARN|Microsoft.AspNetCore.Identity.UserManager|Invalid password for user 75edbcae-5282-47e9-ab60-2828cdfd41c2.
+2020-01-04 21:28:19.0068|WARN|Microsoft.AspNetCore.Identity.SignInManager|User 75edbcae-5282-47e9-ab60-2828cdfd41c2 failed to provide the correct password.
+2020-01-04 21:28:21.2607|WARN|Microsoft.AspNetCore.Identity.UserManager|Invalid password for user 75edbcae-5282-47e9-ab60-2828cdfd41c2.
+2020-01-04 21:28:21.2607|WARN|Microsoft.AspNetCore.Identity.SignInManager|User 75edbcae-5282-47e9-ab60-2828cdfd41c2 failed to provide the correct password.
+2020-01-04 21:28:24.0657|WARN|Microsoft.AspNetCore.Identity.UserManager|Invalid password for user 75edbcae-5282-47e9-ab60-2828cdfd41c2.
+2020-01-04 21:28:24.0657|WARN|Microsoft.AspNetCore.Identity.SignInManager|User 75edbcae-5282-47e9-ab60-2828cdfd41c2 failed to provide the correct password.
+2020-01-04 21:28:27.2102|WARN|Microsoft.AspNetCore.Identity.UserManager|Invalid password for user 75edbcae-5282-47e9-ab60-2828cdfd41c2.
+2020-01-04 21:28:27.2102|WARN|Microsoft.AspNetCore.Identity.SignInManager|User 75edbcae-5282-47e9-ab60-2828cdfd41c2 failed to provide the correct password.
+2020-01-04 21:30:25.1149|WARN|Microsoft.AspNetCore.Identity.UserManager|Invalid password for user 75edbcae-5282-47e9-ab60-2828cdfd41c2.
+2020-01-04 21:30:25.1750|WARN|Microsoft.AspNetCore.Identity.SignInManager|User 75edbcae-5282-47e9-ab60-2828cdfd41c2 failed to provide the correct password.
+2020-01-04 21:30:28.0274|WARN|Microsoft.AspNetCore.Identity.UserManager|Invalid password for user 75edbcae-5282-47e9-ab60-2828cdfd41c2.
+2020-01-04 21:30:28.0274|WARN|Microsoft.AspNetCore.Identity.SignInManager|User 75edbcae-5282-47e9-ab60-2828cdfd41c2 failed to provide the correct password.
+2020-01-04 21:30:29.9266|WARN|Microsoft.AspNetCore.Identity.UserManager|Invalid password for user 75edbcae-5282-47e9-ab60-2828cdfd41c2.
+2020-01-04 21:30:29.9266|WARN|Microsoft.AspNetCore.Identity.SignInManager|User 75edbcae-5282-47e9-ab60-2828cdfd41c2 failed to provide the correct password.
+2020-01-04 21:30:31.7721|WARN|Microsoft.AspNetCore.Identity.UserManager|Invalid password for user 75edbcae-5282-47e9-ab60-2828cdfd41c2.
+2020-01-04 21:30:31.7721|WARN|Microsoft.AspNetCore.Identity.SignInManager|User 75edbcae-5282-47e9-ab60-2828cdfd41c2 failed to provide the correct password.
+2020-01-04 21:30:33.9624|WARN|Microsoft.AspNetCore.Identity.UserManager|Invalid password for user 75edbcae-5282-47e9-ab60-2828cdfd41c2.
+2020-01-04 21:30:33.9624|WARN|Microsoft.AspNetCore.Identity.SignInManager|User 75edbcae-5282-47e9-ab60-2828cdfd41c2 failed to provide the correct password.
+2020-01-04 21:30:33.9624|WARN|Microsoft.AspNetCore.Identity.UserManager|User 75edbcae-5282-47e9-ab60-2828cdfd41c2 is locked out.
+2020-01-04 21:30:34.2439|WARN|Microsoft.AspNetCore.Identity.SignInManager|User 75edbcae-5282-47e9-ab60-2828cdfd41c2 is currently locked out.
+2020-01-04 21:30:50.0864|WARN|EmployeeManagement.Controllers.AccountController|https://localhost:44319/Account/ResetPassword?email=farhan@tech.com&token=CfDJ8MN%2Fy%2BRv4hhJnC5xLsr9vRR7xp%2BNmGvMDfAi4YH34iwz7T%2F9ka64z9RekEvJA0Y89LX%2FpoUABTZtznHwK8%2FVeaywMX3Gy4Mn6xdKU8Phm%2Bl%2B06%2BTxLqamgTXgrIzzlBmDIRLNVXMnDUZrMgUGiaFWUzos8A%2FHJI9Jc97M6cKIZtPBODJQLSf65vF22Ks8qb%2BqQeQ8bgS37UQyTJeOBjVtMUKf9ZQYke7BkgrpgrEMSoh

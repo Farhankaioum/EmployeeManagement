@@ -9,6 +9,10 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using MimeKit;
+using MailKit.Net.Smtp;
+using System.Net.Mail;
+using System.Net;
 
 // For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -254,6 +258,37 @@ namespace EmployeeManagement.Controllers
                                                                                                                 Request.Scheme);
                     logger.Log(LogLevel.Warning, passwordResetLink);
 
+                    //// for mailing user forgot password link using mailKit nugetPackage
+                    //var ToMailAddress = userManager.GetEmailAsync(user);
+
+                    //var message = new MimeMessage();
+                    //message.From.Add(new MailboxAddress("Md.Keiuom", "kspworld24@gmail.com"));
+                    //message.To.Add(new MailboxAddress("User", ToMailAddress.ToString()));
+                    //message.Subject = "Password reset link";
+                    //message.Body = new TextPart("plain")
+                    //{
+                    //    Text = "Click is link for reset your password<br/>" + passwordResetLink
+                    //};
+
+                    //using (var client = new SmtpClient())
+                    //{
+                    //    client.Connect("smtp.gmail.com", 587, false);
+                    //    client.Authenticate("kspworld24@gmail.com", "visualstudio");
+
+                    //    client.Send(message);
+                    //    client.Disconnect(true);
+
+                    //}
+
+                    //for email system
+                    var ToMailAddress = userManager.GetEmailAsync(user);
+                    var userName = userManager.GetUserNameAsync(user);
+                    var confirmEmailMsg = SendEmail(userName.ToString(), ToMailAddress.ToString(), passwordResetLink);
+                    if (confirmEmailMsg == "true")
+                    {
+                        return View("NotFound");
+                    }
+
                     return View("ForgotPasswordConfirmation");
 
                 }
@@ -394,5 +429,43 @@ namespace EmployeeManagement.Controllers
                 return Json($"Email {email} is already in use.");
             }
         }
+        // for mailing system
+        public string SendEmail(string Name, string Email, string Message)
+        {
+
+            try
+            {
+                // Credentials
+                var credentials = new NetworkCredential("kspworld24@gmail.com", "kaioum6446560@@##");
+                // Mail message
+                var mail = new MailMessage()
+                {
+                    From = new MailAddress("kspworld24@gmail.com"),
+                    Subject = "Password Reset Link",
+                    Body = Message
+                };
+                mail.IsBodyHtml = true;
+                mail.To.Add(new MailAddress(Email));
+                // Smtp client
+                var client = new System.Net.Mail.SmtpClient()
+                {
+                    Port = 587,
+                    DeliveryMethod = SmtpDeliveryMethod.Network,
+                    UseDefaultCredentials = false,
+                    Host = "smtp.gmail.com",
+                    EnableSsl = true,
+                    Credentials = credentials
+                };
+                client.Send(mail);
+                return "true";
+            }
+            catch (System.Exception e)
+            {
+                return e.Message;
+            }
+
+        }
     }
+   
+
 }

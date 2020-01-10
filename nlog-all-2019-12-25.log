@@ -1,0 +1,16 @@
+2019-12-25 15:38:16.9426|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.2.6-servicing-10079 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MaxPoolSize=128 
+2019-12-25 15:38:34.2016|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.2.6-servicing-10079 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MaxPoolSize=128 
+2019-12-25 15:38:40.5965|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (266ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2019-12-25 15:38:40.5965|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2019-12-25 15:38:40.9132|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (296ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2019-12-25 15:38:40.9132|INFO|Microsoft.EntityFrameworkCore.Migrations|Applying migration '20191225093817_Extend_IdentityUser'.
+2019-12-25 15:38:41.4539|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (496ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+ALTER TABLE [AspNetUsers] ADD [City] nvarchar(max) NULL;
+2019-12-25 15:38:41.5572|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (102ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20191225093817_Extend_IdentityUser', N'2.2.6-servicing-10079');

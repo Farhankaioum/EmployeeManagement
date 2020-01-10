@@ -1,0 +1,15 @@
+2020-01-02 22:05:55.3254|ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An unhandled exception has occurred while executing the request.
+2020-01-02 22:05:55.4690|ERROR|EmployeeManagement.Controllers.ErrorController|The path /signin-facebook threw an exception System.Exception: An error was encountered while handling the remote login. ---> System.Exception: access_denied;Description=Permissions error
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Authentication.RemoteAuthenticationHandler`1.HandleRequestAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.Invoke(HttpContext context)
+2020-01-02 22:47:06.7545|ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An unhandled exception has occurred while executing the request.
+2020-01-02 22:47:06.7980|ERROR|EmployeeManagement.Controllers.ErrorController|The path /signin-facebook threw an exception System.Exception: An error was encountered while handling the remote login. ---> System.Exception: access_denied;Description=Permissions error
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Authentication.RemoteAuthenticationHandler`1.HandleRequestAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.Invoke(HttpContext context)
+2020-01-02 23:21:58.5882|WARN|EmployeeManagement.Controllers.ErrorController|404 Error Occured. Path = /favicon.icoand QueryString = 

@@ -1,0 +1,4 @@
+2019-12-29 01:38:59.7645|WARN|Microsoft.AspNetCore.Identity.UserManager|User 831ad054-598b-4e6a-a31c-625bc5297c1a password validation failed: PasswordTooShort.
+2019-12-29 11:44:56.1677|WARN|EmployeeManagement.Controllers.ErrorController|404 Error Occured. Path = /favicon.icoand QueryString = 
+2019-12-29 18:57:24.0525|WARN|EmployeeManagement.Controllers.ErrorController|404 Error Occured. Path = /Account/AccessDeniedand QueryString = ?ReturnUrl=%2FAdministration%2FDeleteRole%2F7b7a4e3c-d279-4536-ac56-2de2d6e8845f
+2019-12-29 21:15:49.2535|WARN|EmployeeManagement.Controllers.ErrorController|404 Error Occured. Path = /administration/EditRolesand QueryString = 
